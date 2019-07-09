@@ -1,0 +1,9 @@
+<?php
+namespace App\Http\Controllers;
+
+class homecontroller extends Controller
+{
+    public function index(){
+    	echo "Đây là index trong homecontroller";
+    }
+}
